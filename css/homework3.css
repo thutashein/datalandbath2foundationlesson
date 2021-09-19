@@ -1,0 +1,118 @@
+
+h1{
+	text-align:center;
+	text-shadow:-9px -9px 5px black;
+}
+
+
+.divone{
+	text-align:center;
+	background-image:url(../assets/image/bg2.jpg);
+	
+	width:2400px;
+	height:1000px;
+	font-size:30px;
+	color:white;
+	
+	background-repeat:no-repeat;
+
+
+}
+
+
+.one{
+
+	background:"light sky blue";
+	opacity:;
+	font-size:30px;
+	border:3px dotted white;
+	background:rgba(179,180,175,0.3);
+    width:610px;
+  height:500px;
+}
+.two{
+	font-size:29px;
+}
+
+.three{
+	font-size:29px;
+}
+
+.four{
+	font-size:25px;
+}
+.five{
+	font-size:25px;
+}
+
+.six{
+
+	font-size:30px;
+	text-shadow:-9px -9px 5px black;
+	letter-spacing:1px;
+}
+
+
+
+.username{
+	
+	font-size:30px;
+	text-shadow:-9px -9px 5px black;
+}
+
+.password{
+	
+	font-size:30px;
+	text-shadow:-9px -9px 5px black;
+}
+.legend{
+font-family:stick;
+	text-align:right;
+color:yellow;
+
+}
+
+.paragraph{
+	text-align:right;
+	font-family:stick;
+	color:yellow;
+}
+
+
+a{
+	color:yellow;
+}
+
+
+.jujutsu{
+	text-align:justify;
+	font-size:33px;
+	letter-spacing:1px;
+}
+
+.fieldset{
+
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

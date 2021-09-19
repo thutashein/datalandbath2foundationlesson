@@ -1,0 +1,116 @@
+.bdstyle1{
+	border-style: solid;
+}
+
+.bdstyle2{
+	border-style: dotted;
+}
+
+
+.bdstyle3{
+	border-style:double;
+}
+
+.bdstyle4{
+	border-style: dashed;
+}
+
+
+.bdstyle5{
+	border-style: inset;
+}
+
+
+.bdstyle6{
+	border-style: outset;
+}
+
+
+.bddesign{
+	width:300px;
+	height:300px;
+	background-color:orange;
+	border-radius:70px 0px /*50px 150px*/;
+}
+li{
+
+/*list-style-type: circle;*/
+/*list-style-type: square;*/
+/*list-style-type: none;*/
+
+/*list-style-type: decimal;*/
+
+list-style-type:decimal-leading-zero;
+border:1px solid orange;
+ 
+
+
+/*deafault outside*/
+list-style-position:inside;
+
+
+
+
+}
+
+
+/*attribue selector*/
+/*url()=funtion
+url[]=array
+*/
+input[type="text"]{
+	color:white;
+	background-color: green;
+border-radius: 30px;
+width:200px;
+
+}
+
+input[type="password"]{
+	color:blue;
+
+}
+
+
+
+body{
+	background-image:url(../assets/image/icon1.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	/*background-position:right;
+	background-position:left;
+	background-position:top;*/
+	/*background-position:bottom;*/
+
+
+/*background-attachment:fixed;*/
+/*background-attachment:scroll;*/
+
+
+/*background-position:right center;
+background-position:right bottom;
+*/
+/*background-position:left center;
+background-position:left bottom;
+*/
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

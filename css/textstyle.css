@@ -1,0 +1,40 @@
+.textalign{
+	/*text-align:right;
+    text-align:left;*/
+    /*text-align:center;*/
+    text-align:justify;
+}
+
+
+.textdecoration{
+	/*text-decoration:underline;*/
+/*text-decoration:overline; */
+text-decoration:line-through;
+
+
+
+}
+
+
+
+.textline{
+	/*letter-spacing:2px;
+	line-height:50px;
+	line-height:3;*/
+	line-height:500%;
+}
+
+
+.textshadow{
+	text-shadow:-5px -5px 5px blue; 
+}
+
+
+.divfive{
+	text-align:justify;
+}
+
+
+
+
+

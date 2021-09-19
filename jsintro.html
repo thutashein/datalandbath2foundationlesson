@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>JS Intro</title>
+
+</head>
+
+
+<body>
+
+ <h1>Welcome to Javascript</h1>
+
+ <hr/>
+
+ <span>Hello <span id="mm">Myanmar</span></span>
+
+ <hr/>
+  <p id="poem"></p>
+
+ <hr/>
+
+ <div>
+  <img src="./assets/img/shame.jpg" id="funny"/>
+
+  <button onclick="document.getElementById('funny').src='./assets/img/amazing.jpg'">Amazing</button>
+  <button onclick="document.getElementById('funny').src='./assets/img/bleh.jpg'">Bleh</button>
+  <button onclick="document.getElementById('funny').src='./assets/img/shame.jpg'">Shame</button>
+ </div>
+
+
+ <hr/>
+
+<script type="text/javascript">
+
+ console.log("Hello Mandalay");
+ console.log('Hello Yangon');
+ console.log(528);
+ console.log("528");
+
+
+ // window.alert("Hello Myanmar");
+ // window.alert("Save Myanmar");
+
+
+ // alert("Save Yagon");
+
+ // Comments
+
+ // Single Line Comment
+
+ //
+
+ // Multi line comment
+
+ /* 
+  */
+
+
+  // Variable (const / var / let)
+
+  const sayar = "Tin Htut Aung";
+
+  console.log(sayar);
+  console.log("sayar");
+  console.log('sayar');
+
+  // Backticks
+  console.log(`sayar`);
+  console.log(`${sayar}`);
+
+
+  // window.alert(sayar);
+
+  var num1 = 1500;
+  const num2 = 528;
+
+  console.log(num1+num2);
+ 
+  let num3 = "30";
+  const num4 = '20';
+
+  console.log(num3 + num4);
+
+  var num5 = 20;
+
+  // before update num1
+  console.log(num1+num5);
+
+  // over write
+   num1 = 50;
+
+   // after update num1
+  console.log(num1+num5);
+
+
+  // Concatenate (+)
+
+  const name1 = "mg mg";
+  const name2 = "kyaw";
+
+  console.log(name1+name2);
+
+
+  let greeting = "Hello";
+  let city1 = "Mandalay";
+  let city2 = "Yagnon";
+
+  console.log(greeting + " " + city1 + " and " + city2 );
+  console.log(`${greeting} ${city1} and ${city2}`);
+
+
+  document.write(`${greeting} ${city1} and ${city2}`);
+
+
+  // Special Escape Characters
+
+  let myfather = "he\'s my father";
+  let mymother = 'she\'s my \$ mother';
+  console.log(myfather);
+  console.log(mymother);
+
+
+  document.getElementById("mm").innerHTML = " Thailand";
+
+
+
+  let x = 'It is U Ba';
+  let y = "poem";
+  let z = "He\'s my \"Uncle\"";
+
+  document.getElementById("poem").innerHTML = x + " " + y + " " + z;
+
+
+
+
+</script>
+</body>
+</html>

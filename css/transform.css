@@ -1,0 +1,150 @@
+:root{
+	--gn:yellow;
+}
+
+
+
+.div1{
+	width:100px;
+	height:80px;
+	background: orange;
+
+
+
+-webkit-transform:rotate(180deg);
+-moz-transform:rotate(180deg);
+transform: 180deg;
+}
+
+
+
+
+
+.div2{
+	width:100px;
+	height:80px;
+	background: orange;
+
+/*Vendor Prefix Properties*/
+-webkit-transform:rotateY(180deg);
+-moz-transform:rotateY(180deg);
+transform: rotateY(180deg);
+
+}
+
+
+
+
+
+
+.div4{
+	width:100px;
+	height:80px;
+	background: red;
+
+/*transform: translate(100px)
+                     /* X    Y*/
+/*transform: translate(100px,30px);*/
+/*transform: translate(0px,30px)*/
+
+
+/*transform:translateY(100px);
+transform:translateX(100px)
+
+*/
+
+}
+
+
+
+.div5{
+	width:100px;
+	height:80px;
+	background:var(--gn);
+color:white;
+/*အဆ*/
+
+transform: scale(1);
+
+}
+
+
+
+/*.country{
+	font-size: 20px
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	padding:10px 25px 10px 10px;
+
+	background: transparent;
+background-image: url(https://cdn.iconscout.com/icon/free/png-256/down-arrow-16-460295.png
+);
+background-size: 20px;
+background-repeat: no-repeat;
+background-position: right;
+background-position-x: 90%;*/
+
+
+
+/*}*/
+
+
+.country:focus{
+	outline: 0;
+
+}
+
+
+h1{
+	font-size:;
+}
+
+p.text1{
+	color:blue;
+}
+
+
+@media(max-width: 650px){
+	h1{
+		font-size:40px;
+	}
+     
+     p.textd1{
+     	color:red;
+     }
+
+}
+
+
+
+div.circle1{
+	width: 200px;
+	height:200px;
+	border-radius: 50%;
+	background: conic-gradient(
+		yellow 50%,
+		red 0 60%,
+		green 0 75%,
+		pink 0
+
+
+		
+		/*#5eeb34
+		#33402f
+		#472218*/
+		);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Template String</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+ const name = "Kyaw Kyaw";
+ const age = 24;
+ const city = "Mandalay";
+ const job = "Developer";
+
+ let html ;
+
+
+ // Without Template String (Es5)
+ html = '<ul><li>Name: '+name+'</li><li>Age: '+age+'</li><li>City :'+city+' </li><li>Job: '+job+'</li></ul>';
+
+
+ html = '<ul>'+
+   '<li>Name: ' +name+'</li>'+
+   '<li>Age: ' +age+'</li>'+
+   '<li>City: ' +city+'</li>'+
+   '<li>Job: ' +job+'</li>'+
+   '</ul>';
+
+	
+
+
+ // With Template String (Es6)
+ html = `
+ <ul>
+ <li>Name: ${name}</li>
+ <li>Age: ${age}</li>
+ <li>City: ${city}</li>
+ <li>Job: ${job}</li>
+ </ul>
+ `;
+document.write(html);
+
+
+</script>
+</body>
+</html>

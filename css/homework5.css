@@ -1,0 +1,68 @@
+body{
+	box-sizing: border-box;
+	background: rgba(225,157,127,1.00);
+}
+
+
+
+h1{
+	text-align: center;
+}
+
+.jscal{
+	width: 400px;
+	height:550px;
+	background-color:rgba(57,174,127,1.00);
+	margin:auto;
+	background-image: url(../assets/image/calculator.jpg);
+	border-radius: 5px;
+	box-shadow: -3px -3px 1px black;
+
+}
+
+.total{
+	width:60%;
+	
+	padding: 25px 0px 25px 70px;
+	margin-left: 10px;
+	border-style:outset;
+	font-size:19px;
+}
+
+.total:focus{
+	outline: 0;
+}
+
+button{
+	width: 70px;
+	height: 70px;
+	background: orange;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	border-radius:20px;
+	
+	
+}
+
+.deleteitem{
+	margin-left: 20px;
+	font-size: 23px;
+	
+}
+
+.equal{
+	color:white;
+	background: black;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+*{
+margin:0;
+}
+
+nav{
+width: 1200px;
+}
+
+ul{
+list-style: none;
+}
+
+li{
+background:green;
+width: 250px;
+line-height: 50px;
+border-right: 2px solid black;
+text-align: center;
+
+/*display: inline;*/
+
+float: left;
+
+transition: background 2s , line-height 1s ;
+
+}
+
+/*li:last-of-type{
+	border-right:0;
+}*/
+
+
+li:first-of-type{
+border-left: 2px solid black;
+
+	}
+
+
+
+
+
+
+li:hover{
+background:orange;
+line-height: 60px;
+
+}
+
+
+a{
+color: white;
+text-decoration: none;
+} 

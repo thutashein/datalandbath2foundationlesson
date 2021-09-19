@@ -1,0 +1,150 @@
+
+/*Tag to Tag*/
+/*div span{
+	color:red;
+}*/
+
+/*Tag to Tags*/
+
+/*div span p{
+	color:blue;
+}
+*/
+
+
+/*multi tags to class*/
+/*div  span  .name{
+	color:red;
+}*/
+
+
+
+/*multi tags with class*/
+/*div  span.age{
+	color:green;
+}*/
+
+
+/*tag to class*/
+/*div  .address{
+	color:red;
+}
+*/
+
+
+/*tag to multi class*/
+/*div .name .age{
+	color:blue;
+}
+*/
+
+
+/*Class to Tag*/
+/*.continer   b{
+	color:green;
+}
+*/
+
+
+
+
+/*Class to Tags*/
+/*.continer   b  span{
+	color:green;
+}*/
+
+
+
+/*class to class*/
+/*.bank  .money{
+	color:cyan;
+}*/
+
+
+
+/*class to multi class*/
+/*.bank .money .currency{
+	color:red;
+	}
+*/
+/*
+Same class*/
+/*.mobile.jpn{
+	color:red;
+}*/
+
+/*.mobile.cn{
+	color:green;
+}*/
+
+
+/*.mobile.us{
+	color:blue;
+}*/
+
+
+/*.vehicle .car.jpn{
+	color:yellow;
+	
+}*/
+
+
+
+/*class to tag by group selector*/
+/*.div1 b, .div1 p{
+	color:red;
+}*/
+
+
+
+/*
+child selector*/
+/*.div2 > p{
+	color:red;
+}*/
+
+/*General Sibling selector*/
+/*.div4 ~ p{
+	color:red;
+}*/
+
+
+
+/*Adjecent Sibling Selector*/
+.div7 + i{
+	color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

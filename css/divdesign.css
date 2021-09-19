@@ -1,0 +1,151 @@
+*{
+	cursor:pointer;
+}
+
+.firstdiv{
+	color:red; 
+	font-size: 30px;
+	width:200px;
+	height:200px;
+	background:rgba(26,56,127,1);
+	opacity:1;
+	border:5px;
+	border-style:solid;
+	/*border-style:dotted;*/
+};
+
+
+.seconddiv{
+color:green;
+width:200px;
+height:200px;
+background:silver;
+font-size:40px;
+/*border:3px;
+border-style:solid;
+border-color:blue;*/
+};
+/*border:3px solid red;*/
+
+/*background-image:url(../assets/image/bg1.jpg);*/
+/*background-repeat:repeat;*/
+/*background-repeat:no-repeat;*/
+/*background-repeat:repeat-x;
+*/
+/*background-repeat:repeat-y;*/
+
+/*background-position:center; */
+/*background:linear-gradient(rgba(51,40,127,1.00),rgba(220,233,127,1.00), rgba(224,49,127,1.00));*/
+
+.divthree{
+font-size:30px;
+width:500px;
+height:500px;
+border:3px solid red;
+color:white;
+background:linear-gradient(rgba(51,40,127,1.00),rgba(220,233,127,1.00), rgba(224,49,127,1.00));
+
+};
+
+.divfour{
+color:red;
+width:300px;
+height:300px;
+font-size:30px;
+background-image:linear-gradient(rgba(173,221,127,1.00),rgba(16,15,127,1.00),url(../assets/image/bg1.jpg));
+
+
+
+
+
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

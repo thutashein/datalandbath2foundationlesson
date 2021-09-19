@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object Literals</title>
+</head>
+<body>
+
+
+
+
+
+
+<script type="text/javascript">
+	// JS Object (Array as Object (API))
+
+
+let obj1 = {
+	firstname : "Tin",
+	middlename : "Htut",
+	lastname : "Aung"
+};
+
+console.log(obj1);
+console.table(obj1);
+console.log(obj1.middlename);
+
+
+
+
+let obj2 = {
+firstname: "Kyaw",
+lastname : "Gyi",
+age :40,
+email: "kyawgyi@gmail.com",
+hobbies: ["tiktok","music","sport"],
+address: {
+city :"Yangon",
+street: "Tamwe"
+}
+
+}
+
+
+
+console.log(obj2);
+console.table(obj2);
+
+console.log(obj2.firstname);
+console.log(obj2.lastname);
+console.log(obj2.age);
+console.log(obj2.email);
+console.log(obj2.hobbies[0]);
+console.log(obj2.hobbies[2]);
+console.log(obj2.address.city);
+console.log(obj2.address.street);
+
+
+
+const todo = {
+	add: function(){
+		console.log("Add todo ...")
+	},
+
+	edit: function(x){
+		console.log("Have to =" + x);
+	}
+};
+
+todo.add();
+todo.edit("cook");
+
+	
+	todo.delete = function(){
+		console.log("Delete all notes");
+	}
+
+	todo.delete();
+
+
+
+
+
+
+
+
+
+
+
+</script>
+<script src ="js/jsjson.js" type="text/javascript"></script>
+
+
+</body>
+</html>

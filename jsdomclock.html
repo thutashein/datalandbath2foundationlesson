@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Document Object Model - Clock</title>
+</head>
+<body>
+
+<div>
+ <p id='display'></p>
+</div>
+
+
+<script type="text/javascript">
+ let getdisplay = document.getElementById('display');
+
+ function startcolock(){
+  let date = new Date();
+  console.log(date);
+
+  let gethour = date.getHours();
+  console.log(gethour);
+
+  let getminute = date.getMinutes();
+  console.log(getminute);
+
+  let getsecond = date.getSeconds();
+  console.log(getsecond);
+
+
+
+  let getampm;
+
+  switch(gethour > 12){
+   case true:
+    getampm = "PM";
+    gethour = gethour - 12;
+    break;
+
+    case false:
+    getampm = "AM";
+    break;
+
+  }
+
+
+
+
+  let clock = gethour +':'+ getminute+':'+ getsecond +" "+getampm;
+
+  console.log(clock);
+
+  getdisplay.innerHTML = clock;
+
+
+ }
+
+ startcolock(); //die
+   // (fun,milli second)
+ setInterval(startcolock,1000);
+
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+/*<single selector*/
+p{
+
+	color:red;
+}
+/*group selector*/
+h1,h2,h3,h4{
+	color:blue;
+}
+/*ID selector*/
+#pray{
+	color:blue;
+
+}
+
+#myself{
+	font-size:20px;
+}
+/*Class seletor*/
+.mm{
+	color:gray;
+}
+
+
+.divone{
+	color:blue;
+}
+
+.font20{
+	font-size:20px;
+}
+
+
+.cursor{
+	cursor:pointer;
+}
+
+/*Element Selector
+single selector 
+group selector*/
+
+
+/*universal selector*/
+*{
+	cursor:pointer;
+	font-size:30px;
+}
+
+/**=any*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
